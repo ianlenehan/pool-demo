@@ -1,0 +1,22 @@
+.side-nav-container {
+  width: 180px;
+  margin-left: 10px;
+  height: 100%;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-container button {
+  margin-bottom: 5px;
+}
+
+.right-icon {
+  margin-left: 10px;
+}
+
+.left-icon {
+  margin-right: 10px;
+}

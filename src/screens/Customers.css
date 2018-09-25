@@ -1,0 +1,43 @@
+#tableTitle {
+  color: white !important;
+}
+
+thead {
+  background-color: #546e7a;
+  border-left: 4px solid #dd2c00;
+}
+
+thead span {
+  color: white !important;
+}
+
+.MuiIconButton-label-084 {
+  color: white;
+}
+
+.spacer {
+  flex: 1 1 100%;
+}
+
+.toolbar {
+  background-color: #1c313a;
+  color: white;
+  border-left: 4px solid #dd2c00;
+}
+
+.title {
+  flex: 0 0 auto;
+}
+
+.actions {
+  display: flex;
+}
+
+.header-icon {
+  color: white;
+  margin: 5px;
+}
+
+.customer-row {
+  cursor: pointer;
+}

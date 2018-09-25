@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #1c313a;
+  height: 50px;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-user svg {
+  margin-right: 10px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 170px;
+  background-color: #546e7a;
+}
+
+.left-side .nav-link {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+
+.left-side .nav-link.inactive:hover {
+  background-color: #455a64;
+}
+
+.left-side .nav-link a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.left-side .active {
+  border-left: 4px solid #dd2c00;
+  background-color: #eceff1;
+  padding-left: 6px;
+}
+
+.left-side .active a {
+  color: #000000;
+}
+
+.left-side .left-icon {
+  margin-right: 10px;
+}
+
+.right-side {
+  flex: 6;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #eceff1;
+}

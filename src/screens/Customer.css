@@ -1,0 +1,62 @@
+.customer-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.customer-card {
+  display: flex;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.customer-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 3;
+}
+
+.customer-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-title {
+  margin-bottom: 1;
+  font-size: 14;
+}
+
+.status-select {
+  text-align: left;
+}
+
+.customer-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-status {
+  flex: 1;
+  margin-right: 50px !important;
+}
+
+.text-field {
+  flex: 1;
+  margin-right: 15px !important;
+}
+
+.map-container {
+  height: 30vw;
+  max-width: 30vw;
+  margin: 10px;
+  flex: 2;
+}
+
+.map-pin {
+  color: #dd2c00;
+}
+
+.tab-container {
+  background-color: white;
+}
